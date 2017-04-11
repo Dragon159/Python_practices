@@ -1,0 +1,5 @@
+from functools import reduce
+def mu(x,y):
+	return x*y
+c=reduce(mu,[3,5,7,9])
+print(c)
